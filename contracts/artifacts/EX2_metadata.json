@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1.FirstApplication.sol": "SolidityTest"
+			"contracts/Ex2.Comment.sol": "EX2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1.FirstApplication.sol": {
-			"keccak256": "0xc42b5df6859c1c74ae1af140671e44c1c2567ca134eadd91c9faf1374cde831c",
+		"contracts/Ex2.Comment.sol": {
+			"keccak256": "0x87dbc7cc41f450fbf3a67dffb6e828a33c9d305a0bad80c5e3e11cf54205d7a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://597379bbb49dc74a5d2fbce58fac604faa32693286d8b2a4bfb75af09ba24c7c",
-				"dweb:/ipfs/QmR83pSvtEBQkohpL34ornijAeeFMq6KvpajoXeoCkCKqg"
+				"bzz-raw://3bb3365bb9753e8aa1c320e60d7733eaa1e74b1968cfd61030a91719d96eaa13",
+				"dweb:/ipfs/QmZJ3tWyScACHpHT82McRbbnLfFAQHtoLJJEs4GGmMcpDB"
 			]
 		}
 	},

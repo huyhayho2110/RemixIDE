@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1.FirstApplication.sol": "SolidityTest"
+			"contracts/Ex1.FirstApplication.sol": "EX1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1.FirstApplication.sol": {
-			"keccak256": "0xc42b5df6859c1c74ae1af140671e44c1c2567ca134eadd91c9faf1374cde831c",
+		"contracts/Ex1.FirstApplication.sol": {
+			"keccak256": "0xae22545f361f1ca51e865a33929863c3af76638be8c3cf7558b0c36a3e5b2c88",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://597379bbb49dc74a5d2fbce58fac604faa32693286d8b2a4bfb75af09ba24c7c",
-				"dweb:/ipfs/QmR83pSvtEBQkohpL34ornijAeeFMq6KvpajoXeoCkCKqg"
+				"bzz-raw://cf5977fbb3056bf2571f39145921a9f9eb5465a6fc8004cd7e45171cff612b1e",
+				"dweb:/ipfs/QmdC5Wt7Ad7xYkE3VrM3ER3GtYYa3EsGkpdRAQoC2qnUEm"
 			]
 		}
 	},
