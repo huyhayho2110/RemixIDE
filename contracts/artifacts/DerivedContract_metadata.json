@@ -20,32 +20,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "getprivateData",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "modifyprivateData",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "publicData",
 				"outputs": [
 					{
@@ -69,6 +43,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "updateInternalData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -84,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Ex4.VariablesScope.sol": "EX4"
+			"contracts/test.sol": "DerivedContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -99,11 +86,19 @@
 	},
 	"sources": {
 		"contracts/Ex4.VariablesScope.sol": {
-			"keccak256": "0x72867acf5000e5bfa46eaa1fcdaf097ed721cef57064d0368c8cdc9c098b59aa",
+			"keccak256": "0xa6551b98e766250a2fb9e4656894d860e75f779019480fe87853106ac8492f39",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3437690ea60cacd6f782d30164b5a53a265ee587e53248b20a55d96601c9b2bc",
-				"dweb:/ipfs/QmaJ2Tk2znbQDthGSju6UGydVdxQkiFq8qDdH7Q3fRSJNZ"
+				"bzz-raw://8f35d555d159621e724c115b29a1bf4fb00713cc56274ef98d8c2776c2484e85",
+				"dweb:/ipfs/QmcEk9vtBpRYXHQZB3YdqBKqfaWJaVZWRsSAHM8GLkGu4Y"
+			]
+		},
+		"contracts/test.sol": {
+			"keccak256": "0x5d6e4df0ce8fb1569a12a1cc1b9aeb994cfa4fde344f1ebab979d8aca8b0d7cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11e3d7a31e670f1c15264086a33c1855f30da60c5d0bd99efda7e07081a33fe0",
+				"dweb:/ipfs/QmXtyXanXyYWHy5ieZzYLkyp2uFWKBqQENJAirX3wgXn8d"
 			]
 		}
 	},

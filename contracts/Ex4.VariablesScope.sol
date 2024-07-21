@@ -15,4 +15,24 @@ contract EX4 {
     function getinternalData() public view returns (uint){
         return internalData;
     }
+
+    //internal function to set internalData
+    function setinternalData(uint _value) internal {
+        internalData = _value;
+    }
+
+    //public function to read privateData
+    function getprivateData() public view returns (uint){
+        return privateData;
+    }
+
+    //private function to set privateData
+    function setprivateData(uint _value) private {
+        privateData = _value;
+    }
+
+    //public function to set privateData inside contract
+    function modifyprivateData(uint _value) public {
+        setprivateData(_value);
+    }
 }
